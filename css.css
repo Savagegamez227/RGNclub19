@@ -1,5 +1,5 @@
 body {
-  background: #222222;
+  background: #ffffff;
   padding: 0px;
   margin: 0px;
   font-family: 'Nunito', sans-serif;
@@ -38,9 +38,9 @@ input, button {
 }
 
 .main-div button, .loggedin-div button {
-  background: red;
-  color: black;
-  border: 1px solid red;
+  background: #34ebe8;
+  color: #ffffff;
+  border: 1px solid #34ebe8;
   border-radius: 5px;
   padding: 15px;
   display: block;
@@ -51,8 +51,8 @@ input, button {
 }
 
 .main-div button:hover, .loggedin-div button:hover {
-  background: #000000;
-  color: red;
+  background: #ffffff;
+  color: #34ebe8;
   border: 1px solid #000000;
   cursor: pointer;
 }
@@ -60,7 +60,7 @@ input, button {
 MainButton123 {
 	
 	background-color: blue;
-	color: white;
+	color: #
 	
 	
 }
