@@ -43,3 +43,9 @@ function login(){
 function logout(){
   firebase.auth().signOut();
 }
+
+function Newform123(){
+
+  window.open("Admin.html")
+  
+}
