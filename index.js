@@ -49,3 +49,16 @@ function Newform123(){
   window.open("Admin.html")
   
 }
+
+function signUp() {
+  
+   var email = document.getElementById("email_field");
+  var password = document.getElementById("password_field");
+  
+  const promise = auth.createUserWithEmailAndPassword(email.value, password.value);
+  promise.catch(e => alert(emessage));
+  
+  
+
+
+}
